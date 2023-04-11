@@ -2,7 +2,7 @@
 
 [Problem.](https://leetcode.com/problems/longest-palindromic-substring/description/) Given a string s, return the longest palindromic [substring](https://en.wikipedia.org/wiki/Substring) in s.
 
-A very simple solution is to find all the possible substrings of s starting with the longest (the string s itself) and continue with second longest and so on. 
+A simple solution is to find all the possible substrings of s starting with the longest (the string s itself) and continue with second longest and so on. 
 In each iteration we check if the substring is palindromic. Notice that this procedure ends since a character is always a palindromic substring. 
 
 ```python3
