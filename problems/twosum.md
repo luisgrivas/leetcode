@@ -4,7 +4,7 @@
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 
-One has to calculate all the posible combinations of the form $(x_i, x_j)$ where $i < j$ and compute $x_i + x_j$. This can be done with two nested foor loops.
+One has to find all posible combinations of the form $(x_i, x_j)$ where $i < j$ and compute $x_i + x_j$. This can be done with two nested foor loops.
 
 ```c++
 class Solution {
