@@ -3,9 +3,7 @@
 [Problem.](https://leetcode.com/problems/median-of-two-sorted-arrays/) Given two sorted arrays nums1 and nums2 of size $m$ and $n$ respectively,
 return the median of the two sorted arrays. The overall run time complexity should be $O(log (m+n))$.
 
-The first thing to notice is that we don't need to merge the arrays. Since we know that the median of the merged is located at index $(m+n)/2$ if $m+n$ is odd,
-or is the mean of the elements with index $\lfloor(m+n)/2 \rfloor$ and $\lceil(m+n)/2 \rceil$.
-
+Notice that we don't need to merge the arrays, since we know that the median is located at index $(m+n)/2$ if $m+n$ is odd, or is the mean of the elements with index $\lfloor(m+n)/2 \rfloor$ and $\lceil(m+n)/2 \rceil$ if $m+n$ is even. So we only merge the arrays until the index $\lceil(m+n)/2 \rceil$ and proceed acordingly. The implementation is ugly, since we have to deal with extreme cases (such as empty arrays, etc). 
 
 ```python3
 class Solution:
