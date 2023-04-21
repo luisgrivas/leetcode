@@ -2,7 +2,7 @@
 
 [Problem.](https://leetcode.com/problems/reverse-integer/) Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range $[-2^31, 2^31 - 1]$, then return 0. Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-Reversing an integer is a recurrent theme in leetcode (see this [problem](https://github.com/luisgrivas/leetcode/blob/main/problems/palindrome.md)). The *difficult* part with this problem is that we have to deal with an inequality. The solution is basic arithmetic. 
+Reversing an integer is a recurrent theme in leetcode (see this [problem](https://github.com/luisgrivas/leetcode/blob/main/problems/palindrome.md)). The *difficult* part with this problem is that we have to deal with an inequality. The solution consists of basic arithmetic. 
 
 ```python3
 class Solution:
