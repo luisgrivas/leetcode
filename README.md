@@ -1,5 +1,6 @@
 # LeetCode
 This repository contains Python and C++ solutions to various LeetCode problems, with each solution having its own .md file containing a *detailed* explanation of the approach used to solve the problem. When possible, multiple solutions are included for each problem.
+----
 
 | Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
@@ -15,4 +16,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | 12. Integer To Roman | | |
 | [13. Roman To Integer](problems/romantoint.md) | Easy | | 
 | [14. Longest Common Prefix](problems/longestcommonprefix.md) | Easy | |
-| [20. Valid Parentheses](problems/parenthesis.md) | Easy | |
+| [20. Valid Parentheses](problems/parentheses.md) | Easy | |
+| [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
+| [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
+| [54. Spiral Matrix]() | Medium | ✅  | :x: |
