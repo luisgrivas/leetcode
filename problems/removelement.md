@@ -18,3 +18,11 @@ class Solution:
                 i+=1
         return i
 ```
+
+```python3
+class Solution:
+    def removeElement(self, nums: list[int], val: int) -> int:
+        while val in nums:
+            nums.remove(val)
+        return len(nums)
+```
