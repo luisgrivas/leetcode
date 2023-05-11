@@ -20,4 +20,5 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [20. Valid Parentheses](problems/parentheses.md) | Easy | |
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
+| [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
