@@ -21,4 +21,5 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
+| [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
