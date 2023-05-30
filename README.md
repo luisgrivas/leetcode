@@ -22,4 +22,5 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
 | [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
+| [35. Search Insert Position](problems/searchinsert.md) | Easy | :white_check_mark: | :white_check_mark: |
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
