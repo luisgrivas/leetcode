@@ -20,3 +20,25 @@ class Solution:
 				nums = nums[:mid]
 		return index
 ```
+
+```c++
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+			int inf = 0, sup = nums.size() - 1, index = 0, mid;
+			while(inf <= sup){
+				mid = (sup + inf) / 2;
+				if( nums.at(mid) == target ){
+					return(mid);
+				} else if( nums.at(mid) < target ) {
+					inf = mid + 1;
+					index = inf;
+				} else{
+					sup = mid - 1;
+					index = mid;
+				}
+			}
+			return(index);
+    }
+};
+```
