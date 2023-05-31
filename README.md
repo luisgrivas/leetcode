@@ -6,7 +6,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
 | [1. Two Sum](problems/twosum.md)  | Easy      | :x:| ✅| 
-| 2. Add Two Numbers | Medium | :x: | :x: |
+| [2. Add Two Numbers](problems/addtwonumbers.md) | Medium | :white_check_mark: | :x: |
 | [3. Longest Substring Without Repeating Characters](problems/lswrc.md) | Medium | :white_check_mark: | :white_check_mark:|
 | [4. Median of Two Sorted Arrays](problems/mediantwosortedarrays.md) | Hard | ✅ | ❌ |
 | [5. Longest Palindromic Substring](problems/longestpalindromicsubstring.md) | Medium | ✅ | ❌ |
