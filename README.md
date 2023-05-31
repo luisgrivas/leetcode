@@ -24,3 +24,4 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
 | [35. Search Insert Position](problems/searchinsert.md) | Easy | :white_check_mark: | :white_check_mark: |
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
+| [242. Valid Anagram](problems/validanagram.md) | Easy | :white_check_mark: | :x: |
