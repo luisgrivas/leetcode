@@ -13,7 +13,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [6. Zigzag conversion](problems/zigzag.md) | Medium | ✅ | :x: |
 | [7. Reverse Integer](problems/revinteger.md) | Medium | ✅ | :x: |
 | 8. String To Integer | | |
-| [9. Palindrome Number](problems/palindrome.md) | Medium | | |
+| [9. Palindrome Number](problems/palindrome.md) | Medium | ✅ |:x: |
 | 12. Integer To Roman | | |
 | [13. Roman To Integer](problems/romantoint.md) | Easy |:x: | ✅ |
 | [14. Longest Common Prefix](problems/longestcommonprefix.md) | Easy | ✅ | :x: |
