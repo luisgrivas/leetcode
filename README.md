@@ -17,7 +17,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | 12. Integer To Roman | | |
 | [13. Roman To Integer](problems/romantoint.md) | Easy |:x: | ✅ |
 | [14. Longest Common Prefix](problems/longestcommonprefix.md) | Easy | ✅ | :x: |
-| [20. Valid Parentheses](problems/parentheses.md) | Easy | |
+| [20. Valid Parentheses](problems/parentheses.md) | Easy |:white_check_mark: | :x: |
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
