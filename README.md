@@ -19,6 +19,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [14. Longest Common Prefix](problems/longestcommonprefix.md) | Easy | |
 | [17. Letter Combinations of a Phone Number](problems/digits2letters.md) | Medium | :white_check_mark: | :x: |
 | [20. Valid Parentheses](problems/parentheses.md) | Easy | |
+| [21. Merge Two Sorted Lists](problems/problem21.md) | Easy | :white_check_mark: | :x: |
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
