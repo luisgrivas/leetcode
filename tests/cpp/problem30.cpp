@@ -3,43 +3,44 @@
 #include <unordered_map>
 
 using namespace std; 
-
-
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
-        int string_length = s.size(), words_list_length = words.size(), index = 0;
-        int word_length =  words.at(0).size(), substr_length = word_length * words_list_length; 
+        bool flag = true;
+        int string_length = s.size(), words_list_length = words.size();
+        int word_length = words[0].size(), substr_length = word_length * words_list_length;
         vector<int> indices;
-        vector<string> parts;
         unordered_map<string, int> word_counts, substr_counts;
 
-        for(auto & word : words){
-            word_counts[word] = count(words.begin(), words.end(), word);
-        }
+        for(auto w: words) word_counts[w]++;
 
         for(int ind = 0; ind < string_length - substr_length + 1; ind++){
-            int vind = 0;
+            substr_counts = word_counts;
             for(int jnd = ind; jnd < ind + substr_length; jnd += word_length ){
-                parts[vind] = s.substr(jnd, jnd + word_length);
-                vind ++;
+                string sbstr = s.substr(jnd, word_length);
+                if(substr_counts.count(sbstr)){
+                    if(substr_counts[sbstr] > 0){
+                    substr_counts[sbstr] -= 1;
+                    }
+                    else{
+                        flag = false;
+                        break;
+                    }
+                }else{
+                    flag = false;
+                    break;
+                }
+            }
+            if(flag){
+                indices.push_back(ind);
             }
 
-            for(auto & word : words){
-            substr_counts[word] = count(parts.begin(), parts.end(), word);
-            }
-
-            if(word_counts == substr_counts){
-                indices[index] = ind;
-                index ++;
-            }
-            parts.clear();
+            flag = true;
             substr_counts.clear();
         }
         return indices;
     }
 };
-
 
 int main() {
     Solution solution;
