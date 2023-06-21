@@ -21,6 +21,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [20. Valid Parentheses](problems/parentheses.md) | Easy | |
 | [21. Merge Two Sorted Lists](problems/problem21.md) | Easy | :white_check_mark: | :x: |
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
+| [23. Merge k Sorted Lists](problems/problem23.md) | Medium | :white_check_mark: | :x: |
 | [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
 | [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
