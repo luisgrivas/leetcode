@@ -30,4 +30,5 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [35. Search Insert Position](problems/searchinsert.md) | Easy | :white_check_mark: | :white_check_mark: |
 | [50. Pow(x, n)](problems/problem50.md) | Medium | :white_check_mark: | :x: |
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
+| [58. Length of Last Word](problems/problem58.md) | Easy | :white_check_mark: | :x: |
 | [242. Valid Anagram](problems/validanagram.md) | Easy | :white_check_mark: | :x: |
