@@ -12,6 +12,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [5. Longest Palindromic Substring](problems/longestpalindromicsubstring.md) | Medium | ✅ | ❌ |
 | [6. Zigzag conversion](problems/zigzag.md) | Medium | ✅ | :x: |
 | [7. Reverse Integer](problems/revinteger.md) | Medium | ✅ | :x: |
+| [8. String to Integer (atoi)](problems/problem8.md) | Medium | :white_check_mark: | :x: |
 | 8. String To Integer | | |
 | [9. Palindrome Number](problems/palindrome.md) | Medium | ✅ |:x: |
 | 12. Integer To Roman | | |
