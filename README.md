@@ -31,4 +31,5 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [50. Pow(x, n)](problems/problem50.md) | Medium | :white_check_mark: | :x: |
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
 | [58. Length of Last Word](problems/problem58.md) | Easy | :white_check_mark: | :x: |
+| [66. Plus One](problems/problem66.md) | Easy | :white_check_mark: | :x: |
 | [242. Valid Anagram](problems/validanagram.md) | Easy | :white_check_mark: | :x: |
