@@ -25,7 +25,7 @@ class Solution:
         return indices 
 ```
 
-```cpp
+```c++
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
@@ -57,7 +57,6 @@ public:
             if(flag){
                 indices.push_back(ind);
             }
-
             flag = true;
             substr_counts.clear();
         }
