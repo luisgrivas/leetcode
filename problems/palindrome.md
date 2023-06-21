@@ -25,4 +25,4 @@ class Solution:
       rev = str_x[::-1]
       return str_x == rev
 ```
-I think that this solutions is like cheating but whatever.
+I think that this solutions is like cheating but who cares.
