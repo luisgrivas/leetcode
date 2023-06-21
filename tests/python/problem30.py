@@ -46,6 +46,32 @@ class Solution:
                 indices.append(ind)
 
         return indices
+    
+    def findSubstring3(self, s: str, words: list[str]) -> list[int]:
+        counts = collections.Counter(words)
+        string_length = len(s)
+        word_length = len(words[0])
+        word_list_length = len(words)
+        substr_length = word_length * word_list_length
+        indices = list()
+        current_counts = {}
+
+        for ind in range(string_length - substr_length + 1): 
+            substr = s[ind:(ind + substr_length)]
+            if substr not in words:
+                pass
+            for jnd in range(0, length, m):
+                part = substr[jnd:(jnd + m)]
+                if substr_counts.get(part, -1) > 0:
+                    words_used += 1
+                    substr_counts[part] -= 1
+                else:
+                    break
+
+            if words_used == n:
+                indices.append(ind)
+
+        return indices
 
 if __name__ == '__main__':
     sol = Solution()
