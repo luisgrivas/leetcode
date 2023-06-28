@@ -23,3 +23,24 @@ public:
     }
 };
 ```
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        left = 0
+        right = len(nums) - 1
+        indices = sorted(range(right + 1), key=lambda k: nums[k])
+
+        while left < right:
+            leftIndex = indices[left]
+            rightIndex = indices[right]
+            summ = nums[leftIndex] + nums[rightIndex]
+            if summ == target:
+                return [leftIndex, rightIndex] 
+            elif summ > target:
+                right -= 1
+            else:
+                left += 1
+
+        return []
+```
