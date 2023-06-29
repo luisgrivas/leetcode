@@ -13,9 +13,9 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [6. Zigzag conversion](problems/zigzag.md) | Medium | ✅ | :x: |
 | [7. Reverse Integer](problems/revinteger.md) | Medium | ✅ | :x: |
 | [8. String to Integer (atoi)](problems/problem8.md) | Medium | :white_check_mark: | :x: |
-| 8. String To Integer | | |
 | [9. Palindrome Number](problems/palindrome.md) | Medium | ✅ |:x: |
-| 12. Integer To Roman | | |
+| [11. Container With Most Water](problems/problem11.md) | Medium | :white_check_mark: | :white_check_mark: |
+| [12. Roman To Integers](problems/problem12.md) | Medium | :x: | :white_check_mark: |
 | [13. Roman To Integer](problems/romantoint.md) | Easy | | 
 | [14. Longest Common Prefix](problems/longestcommonprefix.md) | Easy | |
 | [15. 3Sum](problems/problem15.md) | Medium | :white_check_mark: | :x: |
@@ -30,6 +30,8 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
 | [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
 | [30. Substring with Concatenation of All Words](problems/problem30.md) | Hard | :white_check_mark: | ✅ |
+| [31. Next Permutation](problems/problem31.md) | Medium | :white_check_mark: | :x: |
+| [34. Find First and Last Position of Element in Sorted Array](problems/problem34.md) | Medium | :white_check_mark: | :x: |
 | [35. Search Insert Position](problems/searchinsert.md) | Easy | :white_check_mark: | :white_check_mark: |
 | [46. Permutations](problems/problem46.md) | Medium | :white_check_mark: | :x: |
 | [47. Permutations II](problems/problem47.md) | Medium | :white_check_mark: | :x: |
