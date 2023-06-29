@@ -8,7 +8,7 @@ determine if the input string is valid. An input string is valid if:
 
 Solution LA TODO
 
-```python3
+```python
 class Solution:
     def isValid(self, s: str) -> bool:
         parentheses = {"(": ")", "[": "]", "{": "}"}

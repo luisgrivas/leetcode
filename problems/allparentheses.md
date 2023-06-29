@@ -6,7 +6,7 @@ all combinations of well-formed parentheses.
 
 TODO EXP (Dyck words)
 
-```python3
+```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         pref_list = [('', 0, 0)]
