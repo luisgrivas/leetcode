@@ -1,5 +1,5 @@
 # 31. Next Permutation
-[Problem](). Given an array of integers nums, find the next permutation of nums.
+[Problem](https://leetcode.com/problems/next-permutation/description/). Given an array of integers nums, find the next permutation of nums.
 
 
 ```python
@@ -29,8 +29,5 @@ class Solution:
         
         if pointer < 0:
             for i in range(lengthNums // 2):
-                value1 = nums[i]
-                value2 = nums[-i-1]
-                nums[i] = value2
-                nums[-i-1] = value1
+                nums[i], nums[-i-1] = nums[-i-1], nums[i]
 ```
