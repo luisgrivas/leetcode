@@ -28,7 +28,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [22. Generate Parentheses](problems/allparentheses.md) | Medium | ✅ | :x: |
 | [23. Merge k Sorted Lists](problems/problem23.md) | Medium | :white_check_mark: | :x: |
 | [24. Swap Nodes in Pairs](problems/problem24.md) | Medium | :white_check_mark: | :x: |
-| [26. Remove Duplicates From Sorted Array]() | Easy | ✅ | :x:| 
+| [26. Remove Duplicates From Sorted Array](problems/problem26.md) | Easy | ✅ | :x:| 
 | [27. Remove Element](problems/removelement.md) | Easy | ✅ | :x: | 
 | [28. Find the Index of the First Occurrence in a String](problems/findneedle.md) | Easy | :white_check_mark: | :x: |
 | [30. Substring with Concatenation of All Words](problems/problem30.md) | Hard | :white_check_mark: | ✅ |
