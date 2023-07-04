@@ -1,4 +1,4 @@
-# 12. Roman To Integers
+# 12. Integer to Roman
 [Problem](https://leetcode.com/problems/integer-to-roman/description/). Given an integer, convert it to a roman numeral.
 
 🤢
