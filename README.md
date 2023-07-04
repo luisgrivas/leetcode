@@ -3,6 +3,9 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 
 ----
 
+Mi usuario 👉🏻 [luisgrivas](https://leetcode.com/luisgrivas/).
+Ranking: 1,261,183
+
 | Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
 | [1. Two Sum](problems/problem1.md)  | Easy      | :x:| ✅| 
