@@ -15,7 +15,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 | [8. String to Integer (atoi)](problems/problem8.md) | Medium | :white_check_mark: | :x: |
 | [9. Palindrome Number](problems/problem9.md) | Medium | ✅ |:x: |
 | [11. Container With Most Water](problems/problem11.md) | Medium | :white_check_mark: | :white_check_mark: |
-| [12. Roman To Integers](problems/problem12.md) | Medium | :x: | :white_check_mark: |
+| [12. Integer To Roman](problems/problem12.md) | Medium | :x: | :white_check_mark: |
 | [13. Roman To Integer](problems/problem13.md) | Easy |:x: | :white_check_mark: |
 | [14. Longest Common Prefix](problems/problem14.md) | Easy | |
 | [15. 3Sum](problems/problem15.md) | Medium | :white_check_mark: | :x: |
