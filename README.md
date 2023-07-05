@@ -21,7 +21,7 @@ Ranking: **1,261,183**
 | [11. Container With Most Water](problems/problem11.md) | Medium | :white_check_mark: | :white_check_mark: |
 | [12. Integer To Roman](problems/problem12.md) | Medium | :x: | :white_check_mark: |
 | [13. Roman To Integer](problems/problem13.md) | Easy |:x: | :white_check_mark: |
-| [14. Longest Common Prefix](problems/problem14.md) | Easy | |
+| [14. Longest Common Prefix](problems/problem14.md) | Easy | :white_check_mark: | :x: |
 | [15. 3Sum](problems/problem15.md) | Medium | :white_check_mark: | :x: |
 | [16. 3Sum Closest](problems/problem16.md) | Medium | :white_check_mark: | :x: |
 | [17. Letter Combinations of a Phone Number](problems/problem17.md) | Medium | :white_check_mark: | :x: |
