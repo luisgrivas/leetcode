@@ -27,7 +27,7 @@ Ranking: **1,261,183**
 | [17. Letter Combinations of a Phone Number](problems/problem17.md) | Medium | :white_check_mark: | :x: |
 | [18. 4Sum](problems/problem18.md) | Medium | :white_check_mark: | :x: |
 | [19. Remove Nth Node From End of List](problems/problem19.md) | Medium | :white_check_mark: | :x: |
-| [20. Valid Parentheses](problems/problem20.md) | Easy | |
+| [20. Valid Parentheses](problems/problem20.md) | Easy | :white_check_mark:| :x: | 
 | [21. Merge Two Sorted Lists](problems/problem21.md) | Easy | :white_check_mark: | :x: |
 | [22. Generate Parentheses](problems/problem22.md) | Medium | ✅ | :x: |
 | [23. Merge k Sorted Lists](problems/problem23.md) | Medium | :white_check_mark: | :x: |
