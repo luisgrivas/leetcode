@@ -3,9 +3,9 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 
 ----
 
-Mi usuario 👉🏻 [luisgrivas](https://leetcode.com/luisgrivas/)
+My profile 👉 [luisgrivas](https://leetcode.com/luisgrivas/)
 
-Ranking: **1,261,183**
+Ranking: **1.208.769**
 
 | Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
