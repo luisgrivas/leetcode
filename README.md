@@ -46,5 +46,6 @@ Ranking: **1,261,183**
 | [54. Spiral Matrix]() | Medium | ✅  | :x: |
 | [58. Length of Last Word](problems/problem58.md) | Easy | :white_check_mark: | :x: |
 | [66. Plus One](problems/problem66.md) | Easy | :white_check_mark: | :x: |
+| [111. Minimum Depth of Binary Tree](problems/problem111.md) | Easy | :white_check_mark: | :x: |
 | [136. Single Number](problems/problem136.md) | Easy | :white_check_mark: | :x: |
 | [242. Valid Anagram](problems/problem242.md) | Easy | :white_check_mark: | :x: |
