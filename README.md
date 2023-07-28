@@ -5,7 +5,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 
 My profile 👉 [luisgrivas](https://leetcode.com/luisgrivas/)
 
-Ranking: **1.208.769**
+Ranking: **1081809**
 
 | Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
@@ -49,3 +49,4 @@ Ranking: **1.208.769**
 | [111. Minimum Depth of Binary Tree](problems/problem111.md) | Easy | :white_check_mark: | :x: |
 | [136. Single Number](problems/problem136.md) | Easy | :white_check_mark: | :x: |
 | [242. Valid Anagram](problems/problem242.md) | Easy | :white_check_mark: | :x: |
+| [412. Fizz Buzz](problems/problem412.md) | Easy | :white_check_mark: | :x: |
