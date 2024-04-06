@@ -7,7 +7,7 @@ My profile 👉 [luisgrivas](https://leetcode.com/luisgrivas/)
 
 Ranking: **794310**| Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
-| [1. Two Sum](problems/problem1.md)  | Easy      | :x:| ✅| 
+| [1. Two Sum](problems/problem1.md)  | Easy      | :x:| ✅|
 | [2. Add Two Numbers](problems/problem2.md) | Medium | :white_check_mark: | :x: |
 | [3. Longest Substring Without Repeating Characters](problems/problem3.md) | Medium | :white_check_mark: | :white_check_mark:|
 | [4. Median of Two Sorted Arrays](problems/problem4.md) | Hard | ✅ | ❌ |
