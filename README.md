@@ -5,8 +5,7 @@ This repository contains Python and C++ solutions to various LeetCode problems, 
 
 My profile 👉 [luisgrivas](https://leetcode.com/luisgrivas/)
 
-Ranking: **795119**
-| Problem    | Level | Python | C++ |
+Ranking: **794310**| Problem    | Level | Python | C++ |
 | ---- | ---- | :----: | :----: |
 | [1. Two Sum](problems/problem1.md)  | Easy      | :x:| ✅| 
 | [2. Add Two Numbers](problems/problem2.md) | Medium | :white_check_mark: | :x: |
@@ -52,3 +51,4 @@ Ranking: **795119**
 | [242. Valid Anagram](problems/problem242.md) | Easy | :white_check_mark: | :x: |
 | [412. Fizz Buzz](problems/problem412.md) | Easy | :white_check_mark: | :x: |
 | [442. Find All Duplicates in an Array](problems/problem442.md) | Medium | :white_check_mark: | :x: |
+| [1249. Minimum Remove to Make Valid Parentheses](problems/problem1249.md) | Medium | :white_check_mark: | :x: |
