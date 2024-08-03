@@ -19,7 +19,41 @@ from typing import List
 
 class Solution:
     def minimumOperations(self, nums: List[int], start: int, goal: int) -> int:
-        return 0
+        visited = {start: 0} 
+        stack = deque([start])
+        while stack:
+            x = stack.popleft()
+            if x == goal:
+                return visited[x]
+            elif 0 <= x <= 1000:
+                count = visited[x] + 1
+                for num in nums:
+                    x_ = x + num
+                    visited[x_] = visited.get(x_, count) 
+                    stack.append(x_)
+        return -1
+
+
+def bfs(x: int, goal: int, nums: list[int]): #NOTE: SLOWWW!!!
+    visited = {x}
+    stack = deque([[x, 0]])
+    while stack:
+        [x, c] = stack.popleft()
+        if x == goal:
+            return c
+        if 0 <= x <= 1000:
+            c_ = c + 1
+            for num in nums:
+                if (x_ := x + num) not in visited:
+                    stack.append([x_, c_] )
+                    visited.add(x_)
+                if (x_ := x - num) not in visited:
+                    stack.append([x_, c_] )
+                    visited.add(x_)
+                if (x_ := x^num) not in visited:
+                    stack.append([x_, c_] )
+                    visited.add(x_)
+    return -1
 
 def dp(x: int, goal: int, nums: list[int], hash: dict):
     if goal in hash:
